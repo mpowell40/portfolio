@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: 
-Sitemap: https://hulobiral.online/sitemap.xml
+Allow: /
+
+Sitemap: https://mpowell.github.io/sitemap.xml
