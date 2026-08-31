@@ -1,8 +1,8 @@
 # Mekhel Powell - Cybersecurity Portfolio Website
 
 <p align="center">
-  <a href="./Mekhel-Picture.jpeg" target="_blank">
-    <img src="./Mekhel-Picture.jpeg" alt="Mekhel Powell Portfolio Preview" style="border-radius: 8px; max-width: 600px;">
+  <a href="./Profile-Screenshot.png" target="_blank">
+    <img src="./Profile-Screenshot.png" alt="Mekhel Powell Portfolio Preview" style="border-radius: 8px; max-width: 600px;">
   </a>
 </p>
 
