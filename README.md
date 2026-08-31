@@ -1,91 +1,46 @@
-# Hulo Biral - Cybersecurity Portfolio Website
+# Mekhel Powell - Cybersecurity Portfolio Website
 
 <p align="center">
-  <a href="./hulo-biral-preview.png" target="_blank">
-    <img src="./hulo-biral-preview.png" alt="Hulo Biral Portfolio Screenshot" style="border-radius: 8px;">
+  <a href="./Mekhel-Picture.jpeg" target="_blank">
+    <img src="./Mekhel-Picture.jpeg" alt="Mekhel Powell Portfolio Preview" style="border-radius: 8px; max-width: 600px;">
   </a>
 </p>
 
-This repository hosts the source code for the personal portfolio of **Hulo Biral** , a Cybersecurity Student specializing in ethical hacking, penetration testing, and web application security. The website serves as a digital universe to showcase academic background, technical skills, projects, and contact information.
+This repository hosts the source code for the personal portfolio of **Mekhel Powell**, a Cybersecurity Graduate Student specializing in threat detection engineering, network defense architectures, and cloud security operations. The website serves as a central hub to showcase research, security homelab environments, featured projects, and professional background.
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Featured Projects Highlighted
 
-Explore the live, deployed version of the website here:
-
-👉 **[https://hulobiral.online](https://hulobiral.online)**
+* **ML Phishing Detection System:** End-to-end classification pipeline utilizing NLP on email headers, body text, and embedded URLs with a React interface.
+* **Cowrie SSH Decoy & Wazuh SIEM Pipeline:** Cloud-deployed medium-interaction honeypot integrated with custom Wazuh decoders and alert rules to capture live brute-force telemetry.
+* **Cybersecurity Policy Research:** Technical and legislative analyses covering state data breach notifications and international cyber operations.
 
 ---
 
 ## ✨ Features
 
-The portfolio is built with modern web development practices, focusing on performance, accessibility, and a unique, visually engaging design inspired by a "Cybersecurity Universe" theme.
-
-* **Responsive & Dynamic Design:** Optimized for all devices (mobile, tablet, desktop) with a dark, space-themed aesthetic.
-* **Custom Cursor:** Enhances desktop user experience with magnetic hover effects.
-* **Particle Background:** A subtle, animated canvas background creates an immersive atmosphere.
-* **Typing Animation:** Dynamic text in the hero section introduces Hulo's multiple roles.
-* **Smooth Navigation:** Scroll-spy dots and fixed navigation for seamless movement between sections.
-* **SEO Optimized:** Comprehensive Open Graph (OG) and Twitter Card metadata for social sharing, plus JSON-LD structured data.
+* **Responsive & Clean UI:** Optimized across mobile, tablet, and desktop viewports with a focused dark-theme aesthetic.
+* **Interactive Canvas Elements:** Particle animations and smooth navigation between project showcases.
+* **Direct Artifact Links:** Instant access to live demos, GitHub repositories, and downloadable research PDFs.
+* **Performance Focused:** Pure HTML5, CSS3, and JavaScript implementation with zero heavy build pipeline overhead.
 
 ---
 
 ## 🛠️ Tech Stack
 
-This project is a classic and robust static website built entirely with foundational web technologies.
-
-* **HTML5:** Semantic structure for the content.
-* **CSS3:** Custom styling and animations (`style.css`).
-* **JavaScript (ES6+):** Handling dynamic effects, particle background, typing animation, and magnetic buttons (`script.js`).
-* **External Libraries:**
-    * **Google Fonts:** Inter and Playfair Display for typography.
-    * **Tailwind CSS (via CDN):** Used for rapid, utility-first styling and responsive layout adjustments within `index.html`.
-
+* **HTML5:** Semantic document structuring.
+* **CSS3 & Tailwind CSS:** Utility styling, layout scaffolding, and custom animations.
+* **JavaScript (ES6+):** Dynamic effects, interaction listeners, and navigation handling.
+* **Hosting:** Static web hosting.
 
 ---
 
 ## ⚙️ Local Development
 
-To run and modify this project locally, follow these steps:
+To run or view this project locally:
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/hul0/hulobiral-portfolio-html.git](https://github.com/hul0/hulobiral-portfolio-html.git)
-    cd hulobiral-portfolio-html
-    ```
-
-2.  **Open the file:**
-    Since this is a static HTML site with no build tools or server dependencies, simply open the `index.html` file in your preferred web browser.
-
-    ```bash
-    # For macOS/Linux
-    open index.html
-    # For Windows
-    start index.html
-    ```
-
-3.  **Customize:**
-    Edit `index.html`, `style.css`, and `script.js` to customize the content, styling, and interactivity.
-
----
-
-## 🤝 Contribution
-
-Contributions are welcome! If you find any bugs, have suggestions for new features, or want to improve the codebase, please check out the **[CONTRIBUTING.md](CONTRIBUTING.md)** file for guidelines.
-
----
-
-## 📝 License
-
-This project is licensed under the **MIT License**. See the **[LICENSE](LICENSE)** file for details.
-
----
-
-## 📧 Contact
-
-* **Email:** `nmrupam@proton.me`
-* **GitHub:** **[@hul0](https://github.com/hul0)**
-* **LinkedIn:** **[/in/hulo](https://www.linkedin.com/in/hulo)**
-
-
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/mpowell40/Mekhel-Powell-Personal-Wesbite-.git](https://github.com/mpowell40/Mekhel-Powell-Personal-Wesbite-.git)
+   cd Mekhel-Powell-Personal-Wesbite-
