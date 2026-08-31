@@ -14,7 +14,7 @@ This repository hosts the source code for the personal portfolio of **Mekhel Pow
 
 * **ML Phishing Detection System:** End-to-end classification pipeline utilizing NLP on email headers, body text, and embedded URLs with a React interface.
 * **Cowrie SSH Decoy & Wazuh SIEM Pipeline:** Cloud-deployed medium-interaction honeypot integrated with custom Wazuh decoders and alert rules to capture live brute-force telemetry.
-* **Cybersecurity Policy Research:** Technical and legislative analyses covering state data breach notifications and international cyber operations.
+* **Cybersecurity Policy Essays:** Technical and legislative analyses covering state data breach notifications and international cyber operations.
 
 ---
 
