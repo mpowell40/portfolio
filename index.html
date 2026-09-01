@@ -411,172 +411,153 @@
       </section>
 
       <!-- Featured Projects Section -->
-      <section
-        id="projects"
-        data-aos="fade-up"
-        class="min-h-screen flex items-center relative z-10 py-20"
-      >
-        <div class="container mx-auto px-6 lg:px-12">
-          <!-- Section Heading -->
-          <div class="text-center mb-16">
-            <p class="text-sm uppercase tracking-[0.3em] text-gray-400 mb-4">
-              Defensive &amp; Engineering Projects
-            </p>
-            <h2 class="text-3xl md:text-5xl font-bold mb-4">
-              Featured <span class="text-gradient">Work</span>
-            </h2>
-            <p class="text-gray-400 max-w-2xl mx-auto">
-              Hands-on implementations in network architecture, defensive telemetry, and detection engineering.
-            </p>
+<section
+  id="projects"
+  data-aos="fade-up"
+  class="relative z-10 py-24"
+>
+  <div class="container mx-auto px-6 lg:px-12 max-w-7xl">
+    <!-- Section Heading -->
+    <div class="text-center mb-16">
+      <p class="text-sm uppercase tracking-[0.3em] text-gray-400 mb-3">
+        Technical Portfolio
+      </p>
+      <h2 class="text-3xl md:text-5xl font-bold mb-4">
+        Featured <span class="text-gradient">Projects &amp; Research</span>
+      </h2>
+      <p class="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base">
+        Hands-on implementations across detection engineering, SIEM pipelines, ML systems, and cybersecurity governance.
+      </p>
+    </div>
+
+    <!-- 4-Card Unified Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Card 1: Honeypot -->
+      <div class="glass rounded-2xl p-8 hover-lift border border-white/10 flex flex-col justify-between h-full">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono uppercase tracking-widest px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full border border-cyan-500/30">
+              Defensive Security &amp; SIEM
+            </span>
           </div>
-
-          <!-- Technical Projects Grid -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-16">
-            <!-- Project 1: Wazuh + Cowrie Honeypot -->
-            <div class="glass rounded-2xl p-8 hover-lift border border-white/10 flex flex-col justify-between">
-              <div>
-                <div class="flex items-center justify-between mb-4">
-                  <span class="text-xs font-mono uppercase tracking-widest px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full border border-cyan-500/30">
-                    Defensive Security &amp; SIEM
-                  </span>
-                </div>
-                <h3 class="text-2xl font-bold mb-3 text-white">Cowrie SSH Decoy &amp; Wazuh SIEM Pipeline</h3>
-                <p class="text-gray-300 text-sm mb-6 leading-relaxed">
-                  Configured a virtualized Cowrie medium-interaction SSH decoy to capture and analyze unauthorized brute-force and payload injection attempts. Streamed over 5,000+ raw session logs into a Wazuh SIEM indexer, engineering custom detection rules mapped to MITRE ATT&amp;CK T1110 (Brute Force) and T1059 (Command &amp; Scripting Interpreter).
-                </p>
-                <div class="flex flex-wrap gap-2 mb-6">
-                  <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Wazuh</span>
-                  <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Cowrie Honeypot</span>
-                  <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Linux</span>
-                  <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Docker</span>
-                  <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">MITRE ATT&amp;CK</span>
-                </div>
-              </div>
-              <div class="flex items-center gap-4 pt-4 border-t border-white/10">
-                <a
-                  href="https://github.com/mpowell40/cowrie-wazuh-honeypot"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-sm font-medium text-white hover:text-cyan-400 flex items-center gap-1 transition-colors"
-                >
-                  View Architecture &amp; Code &rarr;
-                </a>
-              </div>
-            </div>
-
-            <!-- Project 2: ML Phishing Detector -->
-            <div class="glass rounded-2xl p-8 hover-lift border border-white/10 flex flex-col justify-between">
-              <div>
-                <div class="flex items-center justify-between mb-4">
-                  <span class="text-xs font-mono uppercase tracking-widest px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full border border-purple-500/30">
-                    Detection Engineering &amp; ML
-                  </span>
-                </div>
-                <h3 class="text-2xl font-bold mb-3 text-white">Machine Learning Phishing Detection Engine</h3>
-                <p class="text-gray-300 text-sm mb-6 leading-relaxed">
-                  Engineered an NLP-driven URL and email body classifier utilizing lexical feature extraction and TF-IDF vectorization. Trained an ensemble model (XGBoost + Logistic Regression) achieving 96.8% accuracy across 10,000+ analyzed samples, integrated with an interactive REST API testing interface.
-                </p>
-                <div class="flex flex-wrap gap-2 mb-6">
-                  <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Python</span>
-                  <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">XGBoost</span>
-                  <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Scikit-learn</span>
-                  <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">NLP</span>
-                  <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">REST API</span>
-                </div>
-              </div>
-              <div class="flex items-center gap-4 pt-4 border-t border-white/10">
-                <a
-                  href="https://github.com/mpowell40/phishing-detection-system"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-sm font-medium text-white hover:text-purple-400 flex items-center gap-1 transition-colors"
-                >
-                  View Repository &amp; Metrics &rarr;
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Policy & Research Section -->
-          <div class="pt-12 border-t border-white/10">
-            <div class="text-center mb-12">
-              <p class="text-sm uppercase tracking-[0.3em] text-gray-400 mb-3">
-                Governance &amp; Strategy
-              </p>
-              <h3 class="text-2xl md:text-4xl font-bold text-white mb-2">
-                Policy &amp; Legal <span class="text-gradient">Research</span>
-              </h3>
-              <p class="text-gray-400 max-w-xl mx-auto text-sm">
-                Academic research analyzing cybersecurity statutory frameworks, consumer protection, and privacy-preserving system design.
-              </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-              <!-- Paper 1: Data Breach Law -->
-              <div class="glass rounded-2xl p-8 hover-lift border border-white/10 flex flex-col justify-between">
-                <div>
-                  <div class="flex items-center justify-between mb-4">
-                    <span class="text-xs font-mono uppercase tracking-widest px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full border border-cyan-500/30">
-                      Cybersecurity Policy &amp; Compliance
-                    </span>
-                  </div>
-                  <h4 class="text-2xl font-bold mb-3 text-white">Rebuilding Georgia’s Data Breach Statute</h4>
-                  <p class="text-gray-300 text-sm mb-6 leading-relaxed">
-                    Evaluated state breach notification statutes against modern ransomware and biometric threats. Proposed a hybrid regulatory model integrating NIST CSF safe harbors for proactive defense and accelerated disclosure timelines.
-                  </p>
-                  <div class="flex flex-wrap gap-2 mb-6">
-                    <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">NIST CSF</span>
-                    <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Statutory Analysis</span>
-                    <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Risk Governance</span>
-                    <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">CCPA / Safe Harbor</span>
-                  </div>
-                </div>
-                <div class="flex items-center gap-4 pt-4 border-t border-white/10">
-                  <a
-                    href="georgia-data-breach-policy.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-sm font-medium text-white hover:text-cyan-400 flex items-center gap-1 transition-colors"
-                  >
-                    Read Policy Memo (PDF) &rarr;
-                  </a>
-                </div>
-              </div>
-
-              <!-- Paper 2: Age Assurance -->
-              <div class="glass rounded-2xl p-8 hover-lift border border-white/10 flex flex-col justify-between">
-                <div>
-                  <div class="flex items-center justify-between mb-4">
-                    <span class="text-xs font-mono uppercase tracking-widest px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full border border-purple-500/30">
-                      Data Privacy &amp; System Design
-                    </span>
-                  </div>
-                  <h4 class="text-2xl font-bold mb-3 text-white">Privacy-Preserving Age Assurance Legislation</h4>
-                  <p class="text-gray-300 text-sm mb-6 leading-relaxed">
-                    Analyzed constitutional, surveillance, and digital divide risks in mandatory online age verification. Designed a privacy-first pilot framework leveraging cryptographic tokenization and zero-retention data mandates.
-                  </p>
-                  <div class="flex flex-wrap gap-2 mb-6">
-                    <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Privacy-by-Design</span>
-                    <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Token Verification</span>
-                    <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Digital Governance</span>
-                    <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Regulatory Policy</span>
-                  </div>
-                </div>
-                <div class="flex items-center gap-4 pt-4 border-t border-white/10">
-                  <a
-                    href="age-assurance-policy.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-sm font-medium text-white hover:text-purple-400 flex items-center gap-1 transition-colors"
-                  >
-                    Read Framework Proposal (PDF) &rarr;
-                  </a>
-                </div>
-              </div>
-            </div>
+          <h3 class="text-2xl font-bold mb-3 text-white">Cowrie SSH Decoy &amp; Wazuh SIEM Pipeline</h3>
+          <p class="text-gray-300 text-sm mb-6 leading-relaxed">
+            Configured a virtualized Cowrie medium-interaction SSH decoy to capture and analyze unauthorized brute-force and payload injection attempts. Streamed over 5,000+ raw session logs into a Wazuh SIEM indexer, engineering custom detection rules mapped to MITRE ATT&amp;CK T1110 and T1059.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Wazuh</span>
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Cowrie Honeypot</span>
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Docker</span>
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">MITRE ATT&amp;CK</span>
           </div>
         </div>
-      </section>
+        <div class="pt-4 border-t border-white/10">
+          <a
+            href="https://github.com/mpowell40/cowrie-wazuh-honeypot"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-sm font-medium text-white hover:text-cyan-400 flex items-center gap-1 transition-colors"
+          >
+            View Architecture &amp; Code &rarr;
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 2: Phishing Detector -->
+      <div class="glass rounded-2xl p-8 hover-lift border border-white/10 flex flex-col justify-between h-full">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono uppercase tracking-widest px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full border border-purple-500/30">
+              Detection Engineering &amp; ML
+            </span>
+          </div>
+          <h3 class="text-2xl font-bold mb-3 text-white">ML Phishing Detection Engine</h3>
+          <p class="text-gray-300 text-sm mb-6 leading-relaxed">
+            Engineered an NLP-driven URL and email body classifier utilizing lexical feature extraction and TF-IDF vectorization. Trained an ensemble model achieving 96.8% accuracy across 10,000+ analyzed samples, integrated with an interactive REST API testing interface.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Python</span>
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">XGBoost</span>
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Scikit-learn</span>
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">REST API</span>
+          </div>
+        </div>
+        <div class="pt-4 border-t border-white/10">
+          <a
+            href="https://github.com/mpowell40/phishing-detection-system"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-sm font-medium text-white hover:text-purple-400 flex items-center gap-1 transition-colors"
+          >
+            View Repository &amp; Metrics &rarr;
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 3: Georgia Data Breach Law -->
+      <div class="glass rounded-2xl p-8 hover-lift border border-white/10 flex flex-col justify-between h-full">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono uppercase tracking-widest px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full border border-cyan-500/30">
+              Cybersecurity Policy &amp; Compliance
+            </span>
+          </div>
+          <h3 class="text-2xl font-bold mb-3 text-white">Rebuilding Georgia’s Breach Statute</h3>
+          <p class="text-gray-300 text-sm mb-6 leading-relaxed">
+            Evaluated state breach notification statutes against modern ransomware and biometric threats. Proposed a hybrid regulatory model integrating NIST CSF safe harbors for proactive defense and accelerated disclosure timelines.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">NIST CSF</span>
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Statutory Analysis</span>
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Risk Governance</span>
+          </div>
+        </div>
+        <div class="pt-4 border-t border-white/10">
+          <a
+            href="georgia-data-breach-policy.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-sm font-medium text-white hover:text-cyan-400 flex items-center gap-1 transition-colors"
+          >
+            Read Policy Memo (PDF) &rarr;
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 4: Age Assurance -->
+      <div class="glass rounded-2xl p-8 hover-lift border border-white/10 flex flex-col justify-between h-full">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono uppercase tracking-widest px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full border border-purple-500/30">
+              Data Privacy &amp; System Design
+            </span>
+          </div>
+          <h3 class="text-2xl font-bold mb-3 text-white">Privacy-Preserving Age Assurance</h3>
+          <p class="text-gray-300 text-sm mb-6 leading-relaxed">
+            Analyzed constitutional, surveillance, and digital divide risks in mandatory online age verification. Designed a privacy-first pilot framework leveraging cryptographic tokenization and zero-retention data mandates.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Privacy-by-Design</span>
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Token Verification</span>
+            <span class="px-2 py-1 bg-white/5 rounded text-xs text-gray-400 border border-white/5">Regulatory Policy</span>
+          </div>
+        </div>
+        <div class="pt-4 border-t border-white/10">
+          <a
+            href="age-assurance-policy.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-sm font-medium text-white hover:text-purple-400 flex items-center gap-1 transition-colors"
+          >
+            Read Framework Proposal (PDF) &rarr;
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       <!-- Contact Section -->
       <section
