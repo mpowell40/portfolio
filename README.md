@@ -10,7 +10,7 @@ This repository hosts the source code for the personal portfolio of **Mekhel Pow
 
 ---
 
-## 🚀 Featured Projects Highlighted
+##  Featured Projects Highlighted
 
 * **ML Phishing Detection System:** End-to-end classification pipeline utilizing NLP on email headers, body text, and embedded URLs with a React interface.
 * **Cowrie SSH Decoy & Wazuh SIEM Pipeline:** Cloud-deployed medium-interaction honeypot integrated with custom Wazuh decoders and alert rules to capture live brute-force telemetry.
@@ -18,7 +18,7 @@ This repository hosts the source code for the personal portfolio of **Mekhel Pow
 
 ---
 
-## ✨ Features
+##  Features
 
 * **Responsive & Clean UI:** Optimized across mobile, tablet, and desktop viewports with a focused dark-theme aesthetic.
 * **Interactive Canvas Elements:** Particle animations and smooth navigation between project showcases.
@@ -27,7 +27,7 @@ This repository hosts the source code for the personal portfolio of **Mekhel Pow
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **HTML5:** Semantic document structuring.
 * **CSS3 & Tailwind CSS:** Utility styling, layout scaffolding, and custom animations.
@@ -36,7 +36,7 @@ This repository hosts the source code for the personal portfolio of **Mekhel Pow
 
 ---
 
-## ⚙️ Local Development
+##  Local Development
 
 To run or view this project locally:
 
